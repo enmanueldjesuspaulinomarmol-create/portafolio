@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+header {
+    background-color: #172554;
+    color: white;
+    padding: 20px 0;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #93c5fd;
+}
+
+
+
+.inicio {
+    background-color: #1e40af;
+    color: white;
+    padding: 80px 0;
+}
+
+.inicio h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.inicio p {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+.etiqueta {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: white;
+    color: #1e40af;
+    padding: 12px 22px;
+    margin-top: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #dbeafe;
+}
+
+
+
+.seccion {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.seccion h2 {
+    color: #172554;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.seccion p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+
+.datos {
+    background-color: #e8eef8;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    flex: 1;
+    min-width: 180px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.tarjeta h3 {
+    color: #1e40af;
+    font-size: 18px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+}
+
+
+
+.proyecto {
+    background-color: white;
+    padding: 25px;
+    border-left: 4px solid #1e40af;
+    border-radius: 5px;
+}
+
+.proyecto h3 {
+    color: #1e40af;
+}
+
+
+
+.herramientas {
+    background-color: #e8eef8;
+}
+
+
+
+footer {
+    background-color: #172554;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
+
+
+@media (max-width: 600px) {
+
+    header .contenedor {
+        flex-direction: column;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .inicio h2 {
+        font-size: 28px;
+    }
+
+    .contenedor {
+        width: 90%;
+    }
+}
